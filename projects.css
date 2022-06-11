@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects .project-container{
+    padding: 100px;
+    border-width: 100%;
+    border-style: solid;
+    border-image: url(png-transparent-ink-border-ink-ink-marks-black.png) 10% stretch transparent;
+    margin: 10px
+
+}
