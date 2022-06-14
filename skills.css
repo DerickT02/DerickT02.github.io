@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+
+.skills .frontend ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.skills .backend ul{
+    text-align: center;
+    list-style-type: none;
+}
