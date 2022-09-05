@@ -1,24 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 
 
 
 
 body{
-    background-color: antiquewhite;
-    font-family: 'Special Elite', cursive;
+    background-color: rgb(34, 34, 34);
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+
+.projects-page{
+    display: flex;
+    flex-direction: row;
+   
+    gap: 80vmin;
+}
+
+
+.projects-page .nav{
+    position: relative;
+    display: flex;
+    gap: 10vmin;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 24vmin;
+    margin-left: 3vmin;
+}
+
+.projects-page .nav a{
+    position: relative;
+    
+    color: white;
+    text-decoration: none;
+    
+}
+
+.projects-page .nav a:hover{
+    color: gray;
+}
+
+.projects-page .nav a:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 230%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+}
+
+.projects-page .nav a:hover::before {
+    transform: scaleX(1);
+}
+
+
+.projects-page .nav a:visited{
+    text-decoration: none;
+}
+
+.projects-page .projects{
+    margin-top: 20vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 10vmin;
+}
+.projects-page .projects .project-container{
+    text-align: center;
+    padding: 3vmin 5vmin 3vmin 5vmin;
+    border: 1px solid white ;
     text-align: center;
 }
 
-.projects{
+.projects-page .projects .project-container .project-content{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    
+    text-align: center;
+}
+
+.projects-page .projects .project-container .project-content .project-description{
     display: flex;
     flex-direction: column;
+    margin-right: 10%;
+     /* Black w/ opacity */
+    margin-left: 10%;
+    height: 80%
+    
 }
 
-.projects .project-container{
-    padding: 100px;
-    border-width: 100%;
-    border-style: solid;
-    border-image: url(png-transparent-ink-border-ink-ink-marks-black.png) 10% stretch transparent;
-    margin: 10px
+.projects-page .projects .project-container .project-content  #close-friendzone{
+    background: none;
+    font-size: 50px;
+    color: red;
+    border-style: none;
+    margin-left: 150vmin;
+
 
 }
+
+.projects-page .projects .project-container .project-content .project-description .text{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.projects-page .projects .project-container .project-content .project-description img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

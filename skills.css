@@ -1,20 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 
 
 
 body{
-    background-color: antiquewhite;
-    font-family: 'Special Elite', cursive;
-    text-align: center;
+    background-color: rgb(34, 34, 34);
+    font-family: 'Barlow', sans-serif;
+    color: white;
 }
 
-.skills .frontend ul{
-    text-align: center;
-    list-style-type: none;
+.skills{
+    display: flex;
+    flex-direction: row;
+    gap: 40vmin
 }
 
-.skills .backend ul{
-    text-align: center;
-    list-style-type: none;
+.skills .nav{
+    position: relative;
+    display: flex;
+    gap: 10vmin;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 24vmin;
+    margin-left: 3vmin;
+}
+
+.skills .nav a{
+    position: relative;
+    
+    color: white;
+    text-decoration: none;
+    
+}
+
+.skills .nav a:hover{
+    color: gray;
+}
+
+.skills .nav a:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 230%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+}
+
+.skills .nav a:hover::before {
+    transform: scaleX(1);
+}
+
+
+.skills .nav a:visited{
+    text-decoration: none;
+}
+
+.skills .about{
+    margin-top: 30vmin;
+    max-width: 30vmin;
+}
+
+.skills .skills-container{
+    display: inherit;
+    flex-direction: column;
+    gap: 1vmin;
 }
