@@ -9,8 +9,12 @@ body{
 }
 
 .skills{
+    
     display: flex;
     flex-direction: row;
+    gap: 15vmin;
+    margin-top: 14vmin;
+    gap: 80vmin;
     gap: 40vmin
 }
 
@@ -20,7 +24,7 @@ body{
     gap: 10vmin;
     flex-direction: column;
     z-index: 1;
-    margin-top: 24vmin;
+    margin-top: 11vmin;
     margin-left: 3vmin;
 }
 
