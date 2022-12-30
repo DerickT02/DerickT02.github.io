@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+
+
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+    gap: 15vmin;
+    margin-top: 14vmin;
+
+}
+
+.homepage .nav{
+    position: relative;
+    display: flex;
+    gap: 10vmin;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 10vmin;
+    margin-left: 3vmin;
+}
+
+
+
+.homepage .nav a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.homepage .nav a:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 230%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+}
+
+.homepage .nav a:hover{
+    color: gray
+}
+
+.homepage .nav a:hover::before {
+    
+    transform: scaleX(1);
+  }
+
+
+
+.homepage .nav a:visited{
+    text-decoration: none;
+}
+
+.homepage .experience-container{
+    margin-left: 200px;
+}
+
+strong{
+    font-family: 'Tahoma', sans-serif
+    
+}

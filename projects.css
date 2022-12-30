@@ -64,6 +64,7 @@ body{
 
 .projects-page .projects{
     margin-top: 20vmin;
+    margin-right: 40vmin;
     display: flex;
     flex-direction: column;
     gap: 10vmin;
