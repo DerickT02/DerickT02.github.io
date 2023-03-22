@@ -90,6 +90,47 @@ body{
     
     text-align: center;
 }
+.projects-page .projects .project-container .project-content .project-header{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 100vw;
+   margin-top: 2%;
+}
+
+
+.projects-page .projects .project-container .project-content .project-header .title{
+    position: absolute;
+    justify-self: center;
+ }
+
+
+
+.projects-page .projects .project-container .project-content .project-header .close-button{
+    margin-left: auto;
+   
+ }
+ 
+
+
+/*
+.projects-page .projects .project-container .project-content .project-header h1{
+    align-self: flex-end;
+    
+}
+
+.projects-page .projects .project-container .project-content .project-header h2{
+
+
+    
+}
+*/
+
+
+
+
 
 .projects-page .projects .project-container .project-content .project-description{
     display: flex;
@@ -106,10 +147,55 @@ body{
     font-size: 50px;
     color: red;
     border-style: none;
-    margin-left: 150vmin;
-
+   
 
 }
+
+.projects-page .projects .project-container .project-content  #close-keyboard-shop{
+    background: none;
+    font-size: 50px;
+    color: red;
+    border-style: none;
+   
+
+}
+
+.projects-page .projects .project-container .project-content  #close-chat-app{
+    background: none;
+    font-size: 50px;
+    color: red;
+    border-style: none;
+  
+
+}
+
+.projects-page .projects .project-container .project-content  #close-video-app{
+    background: none;
+    font-size: 50px;
+    color: red;
+    border-style: none;
+  
+
+}
+
+.projects-page .projects .project-container .project-content  #close-accounting-app{
+    background: none;
+    font-size: 50px;
+    color: red;
+    border-style: none;
+    
+
+}
+
+.projects-page .projects .project-container .project-content  #close-rlgl{
+    background: none;
+    font-size: 50px;
+    color: red;
+    border-style: none;
+  
+
+}
+
 
 .projects-page .projects .project-container .project-content .project-description .text{
     width: auto;
